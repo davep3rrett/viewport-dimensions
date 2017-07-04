@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Viewport Dimensions",
+  "version": "0.1.0",
+
+  "default_locale": "en",
+  "description": "Quickly view the dimensions of your current browser viewport without opening Developer Tools.",
+
+  "browser_action": {
+    "default_popup": "popup.html",
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+}
