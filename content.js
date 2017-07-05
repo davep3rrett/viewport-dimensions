@@ -1,7 +1,3 @@
-// https://stackoverflow.com/questions/1248081/get-the-browser-viewport-dimensions-with-javascript
-
-console.log('content.js is being injected');
-
 chrome.runtime.sendMessage({
   from: 'content',
   subject: 'showPageAction'
